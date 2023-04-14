@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <ul class="pages__list">
+        <li class="page-item">
+          <h1 class="header__header">Rust <span class="span1">Shop</span></h1>
+        </li>
+        <li class="page__item">
+          <a href="./index.html " class="page">Магазин</a>
+        </li>
+        <li class="page__item">
+          <a href="" class="page">Про нас</a>
+        </li>
+        <div
+          class="modal fade"
+          id="exampleModalToggle"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+                  пункт 1
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Ми не несемо відповідальності за товар на сайті. Якщо ви були
+                обмануті можете звернутись до підтримки
+              </div>
+              <div class="modal-footer">
+                <button
+                  class="btn btn-primary"
+                  data-bs-target="#exampleModalToggle2"
+                  data-bs-toggle="modal"
+                >
+                  Читайте далі
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModalToggle2"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
+                  пункт 2
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                читайте перший бункт бо нам набридло відповідати на жалоби
+              </div>
+              <div class="modal-footer">
+                <button
+                  class="btn btn-primary"
+                  data-bs-target="#exampleModalToggle"
+                  data-bs-toggle="modal"
+                >
+                  Це все
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+          data-bs-target="#exampleModalToggle"
+          data-bs-toggle="modal"
+        >
+          Важлива інформація
+        </button>
+      </ul>
+    </header>
+    <main>
+      <h1 class="main__headers">Про нас</h1>
+      <p class="main__text">
+        Ми досвідчені геймери та знаємо всі незручності існуючих платформ для
+        торгівлі ігровими предметами. Ось чому ми створили Skinport, поєднуючи
+        найкращі технології та дизайн, щоб усунути бар'єри між продавцями та
+        покупцями та створити зручну екосистему зі звичним середовищем для всіх
+        геймерів. Завжди раді вашим пропозиціям на
+        <a href="mailto:superzaharic@gmail.ciom" class="main__link">superzaharic@gmai.com</a>
+      </p>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
